@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script  type='text/javascript' src="textAnim.js"></script>
+
+</head>
+<body onload ="txtAnim()">
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        <div class="ui five column horizontally padded grid" id="Header">
+            <div class="center aligned row">
+                <div class="column"></div>
+                <div class="column">
+                    <div class="ui text menu">
+                        <a class="fitted item" href="home.aspx"><p id="fName">Ruben<span id='lName'>Lopez</span></p></a>
+                    </div>    
+                </div>
+                <div class="column"></div>
+                <div class="column"> <div class="ui text menu">
+                        <a class="item"><p>  </p></a>
+                        <a class="item"><p></p></a>
+                        <a class="item active" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>Contact</p></a>
+                    </div>
+                   
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
+
+        <section class="module parallax parallax-1">
+            <div class="container">
+                <h1 id="fadeInto">Software</h1>
+            </div>
+        </section>
+
+        <hr style="border: none; height: 1px; color: lightgray ; background: lightgray;"/>
+
+        <section class="module portfolio">
+            <div class="container">
+                <h1>Portfolio</h1>
+                <p>Coming soon</p>
+            </div>
+        
+        </section>
+        <hr style="border: none; height: 1px; color: lightgray ; background: lightgray;"/>
+
+
+        </asp:ContentPlaceHolder>
+
+     <asp:ContentPlaceHolder id="ContentBody" runat="server"></asp:ContentPlaceHolder>
+   
+     
+     <div class="ui five column horizontally padded grid" id="Footer">
+            <div class="center aligned row">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"> <div class="ui text menu">
+                        <a class="item"><p>  </p></a>
+                        <a class="item active"><p>+18326138257</p></a>
+                        <a class="item"><p>ATF.Edward@gmail.com</p></a>
+                    </div>
+                   
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

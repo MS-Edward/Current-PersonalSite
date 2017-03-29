@@ -1,0 +1,135 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,100);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+
+@font-face { font-family: Hofstad; src: url("/Assets/Fonts/DK-Hofstad.otf")}
+@font-face { font-family: Lora; src: url("https://fonts.googleapis.com/css?family=Lora:400,700")}
+
+
+
+
+
+body {
+}
+
+
+p{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight:100;
+
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', thin;
+}
+
+.ui.five.column.padded.grid .center.aligned.row .column .ui.text.menu .item p#fName{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight:100;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-family: 'Roboto Mono', thin;
+}
+.ui.five.column.padded.grid .center.aligned.row .column .ui.text.menu .item span#lName{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight:400;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+
+.ui.five.column.padded.grid
+{
+    background-color: rgb(13, 13, 13);
+    
+}
+
+.ui.three.column.centered.padded.grid .five.column.centered.row .column img
+{   border: 10px solid #ffaa80;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.ui.three.column.centered.padded.grid .five.column.centered.row .column img:hover
+{
+    filter: grayscale(0%);
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition-duration: .2s;
+}
+
+section.module.parallax-1 {
+    background-image: url("/Assets/Coffee.jpg");
+}
+
+@media all and (min-width: 600px)
+{
+    section.module.parallax h1
+    {
+        font-size: 96px;
+    }
+}
+
+@media all and (min-width: 960px) 
+{
+  section.module.parallax h1 
+  {
+    font-size: 160px;
+  }
+}
+
+section.module.parallax h1 
+{
+    font-family: 'Playfair Display', serif;
+    color: rgba(255, 255, 255, .8);
+    font-size: 100px;
+    line-height: 600px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+section.module.parallax 
+{
+  height: 750px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.portfolio h1
+{
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-size: 35px;
+  line-height: 150px;
+  font-weight: 400;
+  text-align: center;
+ 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.portfolio p
+{
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-size: 25px;
+  line-height: 1px;
+  font-weight: 400;
+  text-align: center;
+
+ 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.portfolio
+{
+       padding-bottom: 2.6cm;
+}
