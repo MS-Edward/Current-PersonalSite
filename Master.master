@@ -19,16 +19,18 @@
     <form id="form1" runat="server">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 
+    <!--
         <div class="ui five column horizontally padded grid" id="Header">
             <div class="center aligned row">
                 <div class="column"></div>
                 <div class="column">
-                    <div class="ui text menu">
+                    <div class="ui left aligned text menu">
                         <a class="fitted item" href="home.aspx"><p id="fName">Ruben<span id='lName'>Lopez</span></p></a>
                     </div>    
                 </div>
                 <div class="column"></div>
-                <div class="column"> <div class="ui text menu">
+                <div class="column"> 
+                    <div class="ui text menu">
                         <a class="item"><p>  </p></a>
                         <a class="item"><p></p></a>
                         <a class="item active" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>Contact</p></a>
@@ -38,6 +40,29 @@
                 <div class="column"></div>
             </div>
         </div>
+     -->
+        <div class="container">
+            <div class="ui five column padded grid" id ="Header">
+                <div class="column">
+                </div>
+                <div class="column">
+                    <div class="ui left aligned container">       
+                            <a class="fitted item" href="home.aspx"><p id="fName">Ruben<span id='lName'>Lopez</span></p></a>
+                    </div>
+                </div>
+                <div class="column">
+                </div>
+                <div class="column">
+                    <div class="ui right aligned container">
+                        <a class="fitted item" href="javascript:void(0)" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>Contact</p></a>
+                    </div>
+                </div>
+                <div class="column">
+                </div>
+            </div>
+        </div>
+
+
 
         <section class="module parallax parallax-1">
             <div class="container">
@@ -61,7 +86,7 @@
 
      <asp:ContentPlaceHolder id="ContentBody" runat="server"></asp:ContentPlaceHolder>
    
-     
+     <!--
      <div class="ui five column horizontally padded grid" id="Footer">
             <div class="center aligned row">
                 <div class="column"></div>
@@ -77,6 +102,29 @@
                 <div class="column"></div>
             </div>
         </div>
+        -->
+
+        <div class="container">
+            <div class="ui five column padded grid" id ="Footer">
+                <div class="column">
+                </div>
+                <div class="column">
+                    <div class="ui left aligned container">
+                        <a class="fitted item" href="javascript:void(0)" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>ATF.Edward@gmail.com</p></a>
+                    </div>
+                </div>
+                <div class="column">
+                </div>
+                <div class="column">
+                    <div class="ui right aligned container">
+                        <a class="fitted item" href="javascript:void(0)" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>+18326138257</p></a>
+                    </div>
+                </div>
+                <div class="column">
+                </div>
+            </div>
+        </div>
+
 
     </form>
 </body>
