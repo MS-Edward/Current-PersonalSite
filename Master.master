@@ -4,133 +4,180 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-
-
-
     <title>Ruben Edward Lopez | Software Engineer</title>
     <link rel="SHORTCUT ICON" href="/Assets/favicon.ico" />
 
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
     <script src="semantic/dist/semantic.min.js"></script>
-    <script  type='text/javascript' src="textAnim.js"></script>
+    <script type='text/javascript' src="textAnim.js"></script>
+    <script type='text/javascript' src="scrollToContact.js"></script>
+    <script type='text/javascript' src="scrollToPortfolio.js"></script>
+    <script type='text/javascript' src="scrollToAbout.js"></script>
 
 </head>
-<body onload ="txtAnim()">
-    <form id="form1" runat="server">
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 
-    <!--
-        <div class="ui five column horizontally padded grid" id="Header">
-            <div class="center aligned row">
-                <div class="column"></div>
-                <div class="column">
-                    <div class="ui left aligned text menu">
-                        <a class="fitted item" href="home.aspx"><p id="fName">Ruben<span id='lName'>Lopez</span></p></a>
-                    </div>    
-                </div>
-                <div class="column"></div>
-                <div class="column"> 
-                    <div class="ui text menu">
-                        <a class="item"><p>  </p></a>
-                        <a class="item"><p></p></a>
-                        <a class="item active" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>Contact</p></a>
-                    </div>
-                   
-                </div>
-                <div class="column"></div>
-            </div>
-        </div>
-     -->
-        <div class="container">
-            <div class="ui five column padded grid" id ="Header">
-                <div class="column">
-                </div>
-                <div class="column">
-                    <div class="ui left aligned container">       
-                            <a class="fitted item" href='<%= Page.ResolveUrl("~/home")%>'><p id="fName">Ruben<span id='lName'>Lopez</span></p></a>
+<body>
+    <form id="form1" runat="server">
+
+        <%--        <div class="container">
+            <div class="ui centered padded grid" id="Header">
+                <div class="five wide column">
+                    <div class="ui left aligned container">
+                        <a href='<%= Page.ResolveUrl("~/home")%>'><span id='fName'>Ruben</span><span id='lName'>Lopez</span></a>
                     </div>
                 </div>
-                <div class="column">
-                </div>
-                <div class="column">
+
+                <div class="five wide column">
                     <div class="ui right aligned container">
-                        <a class="fitted item" href="javascript:void(0)" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>Contact</p></a>
+                        <div class="ui horizontal list">
+                            <div class="item">
+                                <a href="#myAboutAnchor" rel="" id="aboutAnchor" class="anchorLink">
+                                    <span id="aboutButton">About</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#myPortfolioAnchor" rel="" id="portfolioAnchor" class="anchorLink">
+                                    <span id="portfolioButton">Portfolio</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
+                                    <span id="contactButton">Contact</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="column">
-                </div>
             </div>
-        </div>
+        </div>--%>
 
 
 
         <section class="module parallax parallax-1">
+
             <div class="container">
-                <h1 id="fadeInto">Software</h1>
+
+                <h1 id="fadeName">Ruben Lopez</h1>
+
+                <h1 id="fadeTitle">Software Engineer</h1>
             </div>
-        </section>
-
-        <hr style="border: none; height: 1px; color: lightgray ; background: lightgray;"/>
-
-        <section class="module portfolio">
-            <div class="container">
-                <h1>Portfolio</h1>
-                <p>Coming soon</p>
-            </div>
-        
-        </section>
-        <hr style="border: none; height: 1px; color: lightgray ; background: lightgray;"/>
-
-
-        </asp:ContentPlaceHolder>
-
-     <asp:ContentPlaceHolder id="ContentBody" runat="server"></asp:ContentPlaceHolder>
-   
-     <!--
-     <div class="ui five column horizontally padded grid" id="Footer">
-            <div class="center aligned row">
-                <div class="column"></div>
-                <div class="column"></div>
-                <div class="column"></div>
-                <div class="column"> <div class="ui text menu">
-                        <a class="item"><p>  </p></a>
-                        <a class="item active"><p>+18326138257</p></a>
-                        <a class="item"><p>ATF.Edward@gmail.com</p></a>
+            <section id="navBar">
+                <div class="ui centered grid">
+                    <div class="six wide colum">
+                        <div class="ui container">
+                            <div class="ui horizontal list">
+                                <div class="item">
+                                    <a href="#myAboutAnchor" rel="" id="aboutAnchor" class="anchorLink">
+                                        <span id="aboutButton">About</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#myPortfolioAnchor" rel="" id="portfolioAnchor" class="anchorLink">
+                                        <span id="portfolioButton">Portfolio</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
+                                        <span id="contactButton">Contact</span>
+                                    </a>
+                                </div>
+                                <hr style="border: none; height: 1px; color: lightgray; background: lightgray; opacity: .5;" />
+                            </div>
+                        </div>
                     </div>
-                   
                 </div>
-                <div class="column"></div>
-            </div>
-        </div>
-        -->
 
-        <div class="container">
-            <div class="ui five column padded grid" id ="Footer">
-                <div class="column">
+            </section>
+
+
+            <a href="#myAboutAnchor" rel="" id="chevronAnchor" class="anchorLink">
+                <div class="ui image" id="chevronContainer">
+                    <svg width="0" height="0" id="chevron" viewBox="0 0 57.942 105.958" enable-background="new 0 0 11.893 6.503">
+                        <line fill="none" stroke="#ffffff" stroke-width="15" stroke-miterlimit="10" x1="2.475" y1="2.475" x2="55.467" y2="55.466"></line>
+                        <line fill="none" stroke="#ffffff" stroke-width="15" stroke-miterlimit="10" x1="55.467" y1="50.492" x2="2.475" y2="103.484"></line>
+                    </svg>
                 </div>
-                <div class="column">
+            </a>
+        </section>
+
+
+
+        <script>
+            $(document).ready(function () {
+                $('#chevronContainer').hover(function () {
+                    $(this).transition('bounce');
+                })
+                $('.item').hover(function () {
+                    $(this).transition('pulse');
+                })
+            });
+        </script>
+
+
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server"></asp:ContentPlaceHolder>
+
+        <section class="module parallax parallax-3" id ="parallax3">
+            <section id="contact">
+                <div class="ui centered grid">
+                    <div class="left aligned four wide column">
+                        <div class="ui form">
+
+                            <div class="field">
+                                <label>NAME</label>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="field">
+                                <label>EMAIL</label>
+                                <input type="text" name="email">
+                            </div>
+                            <div class="field">
+                                <label>SUBJECT</label>
+                                <input type="text" name="subject">
+                            </div>
+                            <div class="field">
+                                <label>MESSAGE</label>
+                                <textarea rows="2"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <%--        <div class="container">
+            <div class="ui centered padded grid" id="Footer">
+
+                <div class="six wide column">
                     <div class="ui left aligned container">
-                        <a class="fitted item" href="javascript:void(0)" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>ATF.Edward@gmail.com</p></a>
+                        <p id="myContactAnchor">ATF.Edward@Gmail.com</p>
                     </div>
                 </div>
-                <div class="column">
-                </div>
-                <div class="column">
+
+                <div class="six wide column">
                     <div class="ui right aligned container">
-                        <a class="fitted item" href="javascript:void(0)" onclick="document.getElementById('Footer').scrollIntoView(2000);"><p>+18326138257</p></a>
+                        <p>+18326138257</p>
                     </div>
                 </div>
                 <div class="column">
                 </div>
             </div>
-        </div>
-
-
+        </div>--%>
     </form>
 </body>
 </html>

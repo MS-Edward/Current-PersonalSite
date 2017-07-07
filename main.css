@@ -1,11 +1,10 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,100);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Raleway:300');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,500,700');
 @font-face { font-family: Hofstad; src: url("/Assets/Fonts/DK-Hofstad.otf")}
 @font-face { font-family: Lora; src: url("https://fonts.googleapis.com/css?family=Lora:400,700")}
-
-
 
 
 
@@ -13,7 +12,48 @@ body {
 }
 
 
-p{
+
+li#rightHeader1, li#rightHeader2 {
+    display: inline;
+    list-style-type: none;
+    float:left;
+}
+
+.modal{
+    width: 50%;
+}
+
+p#modal-title {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+p#modal-job {
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+p#modal-paragraph1, p#modal-paragraph2, p#modal-paragraph3, p#modal-paragraph4 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+  
+    body.animating.in.dimmable, body.dimmed.dimmable {
+        overflow: auto;
+    }
+
+    p{
     color: #f2f2f2;
     font-size: 20px;
     font-weight:100;
@@ -24,96 +64,158 @@ p{
     font-family: 'Roboto Mono', thin;
 }
 
-p#fName{
-    color: #f2f2f2;
-    font-size: 20px;
-    font-weight:100;
-    text-transform: uppercase;
-    position: relative;
-    letter-spacing: 2px;
-    font-family: 'Roboto Mono', thin;
-}
- span#lName {
+
+
+
+span#lName {
     color: #f2f2f2;
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
     position: relative;
     font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
 }
 
-.ui.five.column.padded.grid
-{
-    background-color: rgb(13, 13, 13);
-    
+div#Header, div#Footer, section#about,section#portfolio{
+    background-color: #1b1b1b;
 }
 
-.ui.three.column.centered.padded.grid .five.column.centered.row .column img
-{   border: 10px solid #ffaa80;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+section#about {
+    padding-top: 3.4%;
+    padding-bottom: 8%;
 }
+    section#about p {
+        font-size: 19px;
+        font-weight: 300;
+        color: #f2f2f2;
+        display: block;
+        letter-spacing: 0px;
+        font-family: 'Lato', sans-serif;
+        text-transform: none;
+        margin: auto;
+        line-height: normal;
+        text-align: left;
+    }
 
-.ui.three.column.centered.padded.grid .five.column.centered.row .column img:hover
-{
-    filter: grayscale(0%);
-    filter: none;
-    -webkit-filter: grayscale(0);
-    transition-duration: .2s;
-}
+    section#about h2 {
+        padding-bottom: 1.5%;
+        margin: auto;
+        color: #f2f2f2;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    section#about h1{
+        font-size: 45px;
+        color: #f2f2f2;
+        display: block;
+        letter-spacing: 0px;
+        font-family: 'Playfair Display', serif;
+        text-transform: none;
+        margin: auto;
+        line-height: 98px;
+        text-align: left;
+    }
+
+
+/*Parallax-1 section*/
 
 section.module.parallax-1 {
-    background-image: url("/Assets/Coffee.jpg");
+    background-image: url("/Assets/Coffee2.jpg");
 }
 
-@media all and (min-width: 600px)
-{
-    section.module.parallax h1
-    {
-        font-size: 96px;
-    }
-}
 
-@media all and (min-width: 960px) 
-{
-  section.module.parallax h1 
-  {
-    font-size: 160px;
-  }
-}
-
-section.module.parallax h1 
-{
+section.module.parallax h1 {
     font-family: 'Playfair Display', serif;
     color: rgba(255, 255, 255, .8);
     font-size: 100px;
-    line-height: 600px;
+    padding-top: 17%;
+    padding-bottom: 0%;
     font-weight: 400;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
+h1#fadeTitle {
+    padding-top: 0%;
+    font-size: 35px;
+    line-height: 0%;
+    opacity: .7;
+    text-transform: uppercase;
 }
 
 section.module.parallax 
 {
-  height: 750px;
+  height: 100vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-section.module.portfolio h1
+span#fName, span#contactButton, span#portfolioButton, span#aboutButton {
+    color: #f2f2f2;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1.5px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+}
+
+section#navBar 
 {
-  font-family: 'Playfair Display', serif;
-  color: black;
-  font-size: 35px;
-  line-height: 150px;
-  font-weight: 400;
-  text-align: center;
- 
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-top:1%;
+}
+
+/*Parallax-2 section*/
+section#parallax2 {
+    height: 20vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax-2 {
+    background-image: url("/Assets/Coffee3.jpeg");
+}
+h1#myPortfolioAnchor {
+    font-size: 45px;
+    color: #f2f2f2;
+    display: block;
+    letter-spacing: 0px;
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
+    margin: auto;
+    padding-top:10%;
+    text-align: left;
+    font-weight:700;
+}
+/*About section*/
+
+
+
+
+
+
+
+
+
+section.module.portfolio h1 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 section.module.portfolio p
@@ -123,7 +225,7 @@ section.module.portfolio p
   font-size: 25px;
   line-height: 1px;
   font-weight: 400;
-  text-align: center;
+  
 
  
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -131,5 +233,36 @@ section.module.portfolio p
 
 section.module.portfolio
 {
-       padding-bottom: 2.6cm;
+       bottom:100%;
+}
+
+svg#chevron {
+    transform: rotate(90deg);
+    height: 30px;
+    width: 30px;
+
+    
+}
+
+div#chevronContainer {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+
+}
+
+div#Footer
+{
+    padding-top:5%;
+}
+
+section.module.parallax-3 {
+    background-image: url("/Assets/Coffee4.jpg");
+}
+section#parallax3 {
+    height: 50vh;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

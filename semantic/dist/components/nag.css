@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI undefined - Nag
+ * # Semantic UI 2.2.10 - Nag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
