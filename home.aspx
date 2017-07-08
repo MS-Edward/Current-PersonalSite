@@ -5,7 +5,7 @@
 
 
 
-
+    
     <section class="module about" id="about">
 
         <div class="ui centered column padded grid">
@@ -25,7 +25,8 @@
 
 
     <section class="module parallax parallax-2" id="parallax2"></section>
-        <section class="module portfolio" id="portfolio">
+
+        <%--<section class="module portfolio" id="portfolio">
             <div class="ui centered stackable grid">
                 <div class="six wide column">
                     <h1 id="myPortfolioAnchor">My Works.</h1>
@@ -155,7 +156,7 @@
                 modal.modal('refresh');
             });
         });
-    </script>
+    </script>--%>
 
 
 
