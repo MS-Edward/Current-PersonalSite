@@ -12,12 +12,13 @@
             <div class="twelve wide column">
                 <h1 id="myAboutAnchor">Hi, I'm Ruben.</h1>
                 <img class="ui large circular right floated image" src="Assets/Portrait.png">
-                <h2>The purpose of the Hydro Burst website</h2>
+                <h2>I’m a graduate from the University of Houston with a B.S in Computer Science and a B.S in Mathematics, I thrive on facing evolving challenges that require innovative and cost-efficient solutions.</h2>
                 <hr style="border: none; height: 1px; color: lightgray; background: lightgray;" />
                 <p>
-                    Organization to follow the ongoing development of the ROUV. By uploading monthly iteration reports detailing the construction progress of the R.O.U.V, the Organization intended to maintain a transparency between stakeholders and itself.<br />
+                    Individually and within a team, I’ve worked on numerous projects ranging from robotics, games, websites, and medical equipment; as a result, I’ve learned to design and implement software based on technical requirements set up by the stakeholder. In addition, I take great strides to learn and apply new skills to develop innovative solutions to solve complex challenges.
                     <br />
-                    Organization to follow the ongoing development of the ROUV. By uploading monthly iteration reports detailing the construction progress of the R.O.U.V, the Organization intended to maintain a transparency between stakeholders and itself.
+                    <br />
+                    At heart, I’m a passionate problem solver who find greats thrill in meeting challenges that require thinking outside of the box. When I’m not busy trying to solve a problem, I’m growing and learning new skills like a new methodology, programming language, or even a spoken language. There is no limit to what fascinates me, there is an entire world full of new experiences and techniques to learn.
                 </p>
             </div>
         </div>
@@ -25,6 +26,12 @@
 
 
     <section class="module parallax parallax-2" id="parallax2"></section>
+
+    <section id="showcase">
+        
+    </section>
+    
+        
 
         <%--<section class="module portfolio" id="portfolio">
             <div class="ui centered stackable grid">
