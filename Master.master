@@ -177,10 +177,14 @@
                         </form>
                         <div class="ui right floated horizontal list">
                             <div class="item">
+                                <a href="https://github.com/MS-Edward">
                                 <img class="ui mini image" src="Assets/GitHub-Mark-Light-64px.png">
+                                </a>
                             </div>
                             <div class="item">
+                                <a href="https://www.linkedin.com/in/ruben-lopez-50072512a">
                                 <img class="ui mini image" src="Assets/In-White-48px-R.png">
+                                    </a>
                             </div>
                         </div>
                     </div>
