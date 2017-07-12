@@ -82,7 +82,7 @@
                         </div>
                         <h2>Remotely Operated Underwater Vehicle (ROUV)</h2>
                     </div>
-                    <p>The ROUV is a Remotely Operated Underwater Vehicle that was designed to compete in the 2016 international Marine Advanced Technology Education (MATE) competition. My roles in the project were to develop a network infrastructure, primitive AI, Proportional-Integral-Derivative (PID) error management controllers, and performance testing through Test-Driven Development (TDD).  </p>
+                    <p>The ROUV is a Remotely Operated Underwater Vehicle that was designed to compete in the 2016 international Marine Advanced Technology Education (MATE) competition. My roles in the project were to develop a proprietary network infrastructure, primitive AI, Proportional-Integral-Derivative (PID) error management controllers, and performance testing through Test-Driven Development (TDD).  </p>
                     <div class="ui small grey labels">
                         <div class="ui label">
                             C#

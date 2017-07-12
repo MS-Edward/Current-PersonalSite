@@ -74,17 +74,17 @@
                     <div class="six wide colum">
                         <div class="ui container">
                             <div class="ui horizontal list">
-                                <div class="item">
+                                <div class="item" id ="navItem1">
                                     <a href="#myAboutAnchor" rel="" id="aboutAnchor" class="anchorLink">
                                         <span id="aboutButton">About</span>
                                     </a>
                                 </div>
-                                <div class="item">
+                                <div class="item" id ="navItem2">
                                     <a href="#myPortfolioAnchor" rel="" id="portfolioAnchor" class="anchorLink">
                                         <span id="portfolioButton">Portfolio</span>
                                     </a>
                                 </div>
-                                <div class="item">
+                                <div class="item" id ="navItem3">
                                     <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
                                         <span id="contactButton">Contact</span>
                                     </a>
@@ -116,7 +116,13 @@
             $('#chevronContainer').hover(function () {
                 $(this).transition('bounce', '1000ms');
             })
-            $('.item').hover(function () {
+            $('#navItem1').hover(function () {
+                $(this).transition('pulse', '500ms');
+            })
+            $('#navItem2').hover(function () {
+                $(this).transition('pulse', '500ms');
+            })
+            $('#navItem3').hover(function () {
                 $(this).transition('pulse', '500ms');
             })
             $('#nameField').on('click', function (event) {
