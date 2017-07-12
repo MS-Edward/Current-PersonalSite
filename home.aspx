@@ -37,10 +37,14 @@
                     <img class="ui fluid image" src="Assets/hbWeb1.png">
                     <div class="ui right floated horizontal list">
                         <div class="item">
-                            <button class="ui inverted submit button"><span>View</span></button>
+                            <a href="https://www.hydroburst.net">
+                                <button class="ui inverted submit button"><span>View</span></button>
+                            </a>
                         </div>
                         <div class="item">
-                            <button class="ui inverted submit button"><span>Source</span></button>
+                            <a href="https://github.com/MS-Edward/Hydro-Burst-Website">
+                                <button class="ui inverted submit button"><span>Source</span></button>
+                            </a>
                         </div>
                     </div>
                     <h2>Hydro Burst Website</h2>

@@ -70,6 +70,7 @@
         </div>
         <section id="navBar">
             <div class="ui centered grid">
+                <div class="doubling three column row">
                 <div class="six wide colum">
                     <div class="ui container">
                         <div class="ui horizontal list">
@@ -92,6 +93,7 @@
                         </div>
                     </div>
                 </div>
+                    </div>
             </div>
 
         </section>
