@@ -32,6 +32,7 @@
             <div class="twelve wide column">
                 <h1 id="myPortfolioAnchor">My portfolio.</h1>
                 <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
+
                 <div class="project">
                     <div class="screenshot">
                         <img class="ui fluid image" src="Assets/hbWeb1.png">
@@ -49,7 +50,7 @@
                         </div>
                         <h2>Hydro Burst Website</h2>
                     </div>
-                    <p>This website is the face of the Hydro Burst organization, through this website stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the organization's ROUV.</p>
+                    <p>The Hydro Burst webstie is the face of the Hydro Burst organization, through this site stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the organization's ROUV.</p>
                     <div class="ui small grey labels">
                         <div class="ui label">
                             HTML
@@ -67,24 +68,21 @@
                 </div>
 
                 <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-top: 5%; margin-bottom: 5%;" />
+
                 <div class="project">
                     <div class="screenshot">
                         <img class="ui fluid image" src="Assets/ROUV2.jpg">
                         <div class="ui right floated horizontal list">
                             <div class="item">
-    
-                                    <button class="ui inverted disabled submit button"><span>View</span></button>
-                                
+                                <button class="ui inverted disabled submit button"><span>View</span></button>
                             </div>
                             <div class="item">
-                                <a href="https://github.com/MS-Edward/Hydro-Burst-Website">
-                                    <button class="ui inverted disabled submit button"><span>Source</span></button>
-                                </a>
+                                <button class="ui inverted disabled submit button"><span>Source</span></button>
                             </div>
                         </div>
                         <h2>Remotely Operated Underwater Vehicle (ROUV)</h2>
                     </div>
-                    <p>The ROUV is a remotely operated under water vehicle that was designed to compete in the 2016 international MATE competition. My roles in the project were to develop a network infrastructure, primitive AI, Proportional-Integral-Derivative (PID) error management controllers, and performance testing through Test-Driven Development (TDD).  </p>
+                    <p>The ROUV is a Remotely Operated Underwater Vehicle that was designed to compete in the 2016 international Marine Advanced Technology Education (MATE) competition. My roles in the project were to develop a network infrastructure, primitive AI, Proportional-Integral-Derivative (PID) error management controllers, and performance testing through Test-Driven Development (TDD).  </p>
                     <div class="ui small grey labels">
                         <div class="ui label">
                             C#
@@ -100,6 +98,119 @@
                         </div>
                     </div>
                 </div>
+
+                <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-top: 5%; margin-bottom: 5%;" />
+
+                <div class="project">
+                    <div class="screenshot">
+                        <img class="ui fluid image" src="Assets/Quixo.png">
+                        <div class="ui right floated horizontal list">
+                            <div class="item">
+                                <button class="ui inverted disabled submit button"><span>View</span></button>
+                            </div>
+                            <div class="item">
+                                <a href="https://github.com/MS-Edward/ProjectQuixo">
+                                    <button class="ui inverted submit button"><span>Source</span></button>
+                                </a>
+                            </div>
+                        </div>
+                        <h2>Quixo Board Game</h2>
+                    </div>
+                    <p>The Quixo Game was a student project that I co-developed to bring an existing game into the digital realm, together we built the Quixo game utilizing Java whilst conducting performance testing through Test-Driven-Development (TDD). </p>
+                    <div class="ui small grey labels">
+                        <div class="ui label">
+                            Java
+                        </div>
+                        <div class="ui label">
+                            TDD
+                        </div>
+                        <div class="ui label">
+                            SOLID
+                        </div>
+                        <div class="ui label">
+                            OOP
+                        </div>
+                        <div class="ui label">
+                            Gradle
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-top: 5%; margin-bottom: 5%;" />
+
+                <div class="project">
+                    <div class="screenshot">
+                        <img class="ui fluid image" src="Assets/stockmachine.png">
+                        <div class="ui right floated horizontal list">
+                            <div class="item">
+                                <button class="ui inverted disabled submit button"><span>View</span></button>
+                            </div>
+                            <div class="item">
+                                <a href="https://github.com/MS-Edward/StockMachine_Project">
+                                    <button class="ui inverted submit button"><span>Source</span></button>
+                                </a>
+                            </div>
+                        </div>
+                        <h2>Stock Machine Project</h2>
+                    </div>
+                    <p>The Stock Machine Project was jointly developed with a fellow peer with the intention to develop a tool that could calculate the net asset value of a User’s stocks. Given a text file, the program would read from the file and utilize the Yahoo Finance API (Discontinued) to discern the current market value of certain stocks. Subsequently, it would then calculate the net asset value of a User’s stocks and promptly relay said information.</p>
+                    <div class="ui small grey labels">
+                        <div class="ui label">
+                            Java
+                        </div>
+                        <div class="ui label">
+                            TDD
+                        </div>
+                        <div class="ui label">
+                            SOLID
+                        </div>
+                        <div class="ui label">
+                            OOP
+                        </div>
+                        <div class="ui label">
+                            Gradle
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-top: 5%; margin-bottom: 5%;" />
+
+                <div class="project">
+                    <div class="screenshot">
+                        <img class="ui fluid image" src="Assets/personalWebsite.png">
+                        <div class="ui right floated horizontal list">
+                            <div class="item">
+                                <a href="https://rubenedward.com">
+                                    <button class="ui inverted submit button"><span>View</span></button>
+
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="https://github.com/MS-Edward/Current-PersonalSite">
+                                    <button class="ui inverted submit button"><span>Source</span></button>
+                                </a>
+                            </div>
+                        </div>
+                        <h2>Personal Website</h2>
+                    </div>
+                    <p>My website is a passion project of mine, I started development with the idea of illustrating who I am and what I’ve done. Utilizing HTML, CSS, JavaScript, and Semantic UI; I set out to bring my idea to life and it will continuously evolve as I grow in my role as a software engineer.</p>
+                    <div class="ui small grey labels">
+                        <div class="ui label">
+                            HTML
+                        </div>
+                        <div class="ui label">
+                            CSS
+                        </div>
+                        <div class="ui label">
+                            JavaScript
+                        </div>
+                        <div class="ui label">
+                            Semantic UI
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-top: 5%; margin-bottom: 5%;" />
 
             </div>
         </div>
