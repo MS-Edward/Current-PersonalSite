@@ -216,8 +216,6 @@
         </div>
     </section>
 
-
-
     <%--<section class="module portfolio" id="portfolio">
             <div class="ui centered stackable grid">
                 <div class="six wide column">
