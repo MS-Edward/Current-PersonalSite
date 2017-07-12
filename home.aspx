@@ -32,7 +32,7 @@
             <div class="twelve wide column">
 
                 <h1 id="myPortfolioAnchor">My portfolio.</h1>
-                <hr style="border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
+                <hr style="margin-right:90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
                 <img class="ui fluid image" src="Assets/hbWeb1.png">
                 <h2>Hydro Burst Website</h2>
                 <div class="ui right floated horizontal list">
