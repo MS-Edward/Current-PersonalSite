@@ -127,13 +127,15 @@ section.module.parallax-1 {
     background-image: url("/Assets/Coffee2.jpg");
 }
 
-
+.ui.list {
+    margin: 2%;
+}
 section#portfolio h2 {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     margin: auto;
     color: #f2f2f2;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     line-height: normal;

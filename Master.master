@@ -140,46 +140,49 @@
 
     <section class="module parallax parallax-3" id="parallax3">
         <section>
-            <div class="ui centered grid">
-                <div class="four wide column">
-                    <h1 id="myContactAnchor">Contact Me</h1>
-                    <hr style="border: none; height: 2px; color: lightgray; background: lightgray;" />
-                    <p id="contactRemark">
-                        Have a sweet project in mind or just want to say hi?
+            <div class="ui  centered grid">
+                <div class="doubling four column row">
+                    <div class="four wide column">
+                        <h1 id="myContactAnchor">Contact Me</h1>
+                        <hr style="border: none; height: 2px; color: lightgray; background: lightgray;" />
+                        <p id="contactRemark">
+                            Have a sweet project in mind or just want to say hi?
                             <br />
-                        Feel free to send me a message!
-                    </p>
+                            Feel free to send me a message!
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="ui centered grid">
-                <div class="left aligned four wide column">
-                    <form class="ui form" method="post" action="http://formspree.io/atf.edward@gmail.com" id="contactForm">
-                        <div class="field" id="nameField">
-                            <p id="nameLabel">NAME</p>
-                            <input type="text" name="name">
+                <div class="doubling four column row">
+                    <div class="left aligned four wide column">
+                        <form class="ui form" method="post" action="http://formspree.io/atf.edward@gmail.com" id="contactForm">
+                            <div class="field" id="nameField">
+                                <p id="nameLabel">NAME</p>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="field" id="emailField">
+                                <p id="emailLabel">EMAIL</p>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="field" id="messageField">
+                                <p id="messageLabel">MESSAGE</p>
+                                <textarea rows="2" name="message"></textarea>
+                            </div>
+                            <input type="hidden" name="_next" value="home.aspx" />
+                            <div class="ui error message"></div>
+                            <button type="submit" class="ui inverted submit button" id="sendButton"><span>Send Message</span></button>
+                        </form>
+                        <div class="ui right floated horizontal list">
+                            <div class="item">
+                                <img class="ui mini image" src="Assets/GitHub-Mark-Light-64px.png">
+                            </div>
+                            <div class="item">
+                                <img class="ui mini image" src="Assets/In-White-48px-R.png">
+                            </div>
                         </div>
-                        <div class="field" id="emailField">
-                            <p id="emailLabel">EMAIL</p>
-                            <input type="email" name="email">
-                        </div>
-                        <div class="field" id="messageField">
-                            <p id="messageLabel">MESSAGE</p>
-                            <textarea rows="2" name="message"></textarea>
-                        </div>
-                        <input type="hidden" name="_next" value="home.aspx" />
-                        <div class="ui error message"></div>
-                        <button type="submit" class="ui inverted submit button" id="sendButton"><span>Send Message</span></button>
-                    </form>
-                    <div class="ui right floated horizontal list">
-                        <div class="item">
-                            <img class="ui mini image" src="Assets/GitHub-Mark-Light-64px.png">
-                        </div>
-                        <div class="item">
-                            <img class="ui mini image" src="Assets/In-White-48px-R.png">
-                        </div>
+                    </div>
                 </div>
-            </div>
-
             </div>
 
         </section>

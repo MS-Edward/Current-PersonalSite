@@ -32,18 +32,20 @@
             <div class="twelve wide column">
 
                 <h1 id="myPortfolioAnchor">My portfolio.</h1>
-                <hr style="margin-right:90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
-                <img class="ui fluid image" src="Assets/hbWeb1.png">
-                <h2>Hydro Burst Website</h2>
-                <div class="ui right floated horizontal list">
-                    <div class="item">
-                        <button class="ui inverted submit button"><span>View</span></button>
+                <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
+                <div class="screenshot">
+                    <img class="ui fluid image" src="Assets/hbWeb1.png">
+                    <div class="ui right floated horizontal list">
+                        <div class="item">
+                            <button class="ui inverted submit button"><span>View</span></button>
+                        </div>
+                        <div class="item">
+                            <button class="ui inverted submit button"><span>Source</span></button>
+                        </div>
                     </div>
-                    <div class="item">
-                        <button class="ui inverted submit button"><span>Source</span></button>
-                    </div>
+                    <h2>Hydro Burst Website</h2>
                 </div>
-                <p>This website is the face of the Hydro Burst organization, through this website stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the orginization's ROUV.</p>
+                <p>This website is the face of the Hydro Burst organization, through this website stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the organization's ROUV.</p>
                 <div class="ui small grey labels">
                     <div class="ui label">
                         HTML
