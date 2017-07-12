@@ -5,10 +5,10 @@
 
 
 
-    
+
     <section class="module about" id="about">
 
-        <div class="ui centered column padded grid">
+        <div class="ui centered column grid">
             <div class="twelve wide column">
                 <h1 id="myAboutAnchor">Hi, I'm Ruben.</h1>
                 <img class="ui large circular right floated image" src="Assets/Portrait.png">
@@ -27,13 +27,45 @@
 
     <section class="module parallax parallax-2" id="parallax2"></section>
 
-    <section id="showcase">
-        
-    </section>
-    
-        
+    <section id="portfolio">
+        <div class="ui centered column grid">
+            <div class="twelve wide column">
 
-        <%--<section class="module portfolio" id="portfolio">
+                <h1 id="myPortfolioAnchor">My portfolio.</h1>
+                <hr style="border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
+                <img class="ui fluid image" src="Assets/hbWeb1.png">
+                <h2>Hydro Burst Website</h2>
+                <div class="ui right floated horizontal list">
+                    <div class="item">
+                        <button class="ui inverted submit button"><span>View</span></button>
+                    </div>
+                    <div class="item">
+                        <button class="ui inverted submit button"><span>Source</span></button>
+                    </div>
+                </div>
+                <p>This website is the face of the Hydro Burst organization, through this website stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the orginization's ROUV.</p>
+                <div class="ui small grey labels">
+                    <div class="ui label">
+                        HTML
+                    </div>
+                    <div class="ui label">
+                        CSS
+                    </div>
+                    <div class="ui label">
+                        Bootstrap
+                    </div>
+                    <div class="ui label">
+                        JavaScript
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <%--<section class="module portfolio" id="portfolio">
             <div class="ui centered stackable grid">
                 <div class="six wide column">
                     <h1 id="myPortfolioAnchor">My Works.</h1>
@@ -164,10 +196,6 @@
             });
         });
     </script>--%>
-
-
-
-
 </asp:Content>
 
 
