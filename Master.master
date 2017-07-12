@@ -71,29 +71,29 @@
         <section id="navBar">
             <div class="ui centered grid">
                 <div class="doubling three column row">
-                <div class="six wide colum">
-                    <div class="ui container">
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                <a href="#myAboutAnchor" rel="" id="aboutAnchor" class="anchorLink">
-                                    <span id="aboutButton">About</span>
-                                </a>
+                    <div class="six wide colum">
+                        <div class="ui container">
+                            <div class="ui horizontal list">
+                                <div class="item">
+                                    <a href="#myAboutAnchor" rel="" id="aboutAnchor" class="anchorLink">
+                                        <span id="aboutButton">About</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#myPortfolioAnchor" rel="" id="portfolioAnchor" class="anchorLink">
+                                        <span id="portfolioButton">Portfolio</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
+                                        <span id="contactButton">Contact</span>
+                                    </a>
+                                </div>
+                                <hr style="border: none; height: 1px; color: lightgray; background: lightgray; opacity: .5;" />
                             </div>
-                            <div class="item">
-                                <a href="#myPortfolioAnchor" rel="" id="portfolioAnchor" class="anchorLink">
-                                    <span id="portfolioButton">Portfolio</span>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
-                                    <span id="contactButton">Contact</span>
-                                </a>
-                            </div>
-                            <hr style="border: none; height: 1px; color: lightgray; background: lightgray; opacity: .5;" />
                         </div>
                     </div>
                 </div>
-                    </div>
             </div>
 
         </section>
@@ -178,13 +178,13 @@
                         <div class="ui right floated horizontal list">
                             <div class="item">
                                 <a href="https://github.com/MS-Edward">
-                                <img class="ui mini image" src="Assets/GitHub-Mark-Light-64px.png">
+                                    <img class="ui mini image" src="Assets/GitHub-Mark-Light-64px.png">
                                 </a>
                             </div>
                             <div class="item">
                                 <a href="https://www.linkedin.com/in/ruben-lopez-50072512a">
-                                <img class="ui mini image" src="Assets/In-White-48px-R.png">
-                                    </a>
+                                    <img class="ui mini image" src="Assets/In-White-48px-R.png">
+                                </a>
                             </div>
                         </div>
                     </div>

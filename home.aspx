@@ -30,42 +30,78 @@
     <section id="portfolio">
         <div class="ui centered column grid">
             <div class="twelve wide column">
-
                 <h1 id="myPortfolioAnchor">My portfolio.</h1>
                 <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-bottom: 5%;" />
-                <div class="screenshot">
-                    <img class="ui fluid image" src="Assets/hbWeb1.png">
-                    <div class="ui right floated horizontal list">
-                        <div class="item">
-                            <a href="https://www.hydroburst.net">
-                                <button class="ui inverted submit button"><span>View</span></button>
-                            </a>
+                <div class="project">
+                    <div class="screenshot">
+                        <img class="ui fluid image" src="Assets/hbWeb1.png">
+                        <div class="ui right floated horizontal list">
+                            <div class="item">
+                                <a href="https://www.hydroburst.net">
+                                    <button class="ui inverted submit button"><span>View</span></button>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="https://github.com/MS-Edward/Hydro-Burst-Website">
+                                    <button class="ui inverted submit button"><span>Source</span></button>
+                                </a>
+                            </div>
                         </div>
-                        <div class="item">
-                            <a href="https://github.com/MS-Edward/Hydro-Burst-Website">
-                                <button class="ui inverted submit button"><span>Source</span></button>
-                            </a>
+                        <h2>Hydro Burst Website</h2>
+                    </div>
+                    <p>This website is the face of the Hydro Burst organization, through this website stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the organization's ROUV.</p>
+                    <div class="ui small grey labels">
+                        <div class="ui label">
+                            HTML
+                        </div>
+                        <div class="ui label">
+                            CSS
+                        </div>
+                        <div class="ui label">
+                            Bootstrap
+                        </div>
+                        <div class="ui label">
+                            JavaScript
                         </div>
                     </div>
-                    <h2>Hydro Burst Website</h2>
                 </div>
-                <p>This website is the face of the Hydro Burst organization, through this website stakeholders could easily inspect monthly iteration documents to view the ongoing construction of the organization's ROUV.</p>
-                <div class="ui small grey labels">
-                    <div class="ui label">
-                        HTML
-                    </div>
-                    <div class="ui label">
-                        CSS
-                    </div>
-                    <div class="ui label">
-                        Bootstrap
-                    </div>
-                    <div class="ui label">
-                        JavaScript
-                    </div>
-                </div>
-            </div>
 
+                <hr style="margin-right: 90%; border: none; height: 1px; color: lightgray; background: lightgray; margin-top: 5%; margin-bottom: 5%;" />
+                <div class="project">
+                    <div class="screenshot">
+                        <img class="ui fluid image" src="Assets/ROUV2.jpg">
+                        <div class="ui right floated horizontal list">
+                            <div class="item">
+    
+                                    <button class="ui inverted disabled submit button"><span>View</span></button>
+                                
+                            </div>
+                            <div class="item">
+                                <a href="https://github.com/MS-Edward/Hydro-Burst-Website">
+                                    <button class="ui inverted disabled submit button"><span>Source</span></button>
+                                </a>
+                            </div>
+                        </div>
+                        <h2>Remotely Operated Underwater Vehicle (ROUV)</h2>
+                    </div>
+                    <p>The ROUV is a remotely operated under water vehicle that was designed to compete in the 2016 international MATE competition. My roles in the project were to develop a network infrastructure, primitive AI, Proportional-Integral-Derivative (PID) error management controllers, and performance testing through Test-Driven Development (TDD).  </p>
+                    <div class="ui small grey labels">
+                        <div class="ui label">
+                            C#
+                        </div>
+                        <div class="ui label">
+                            .NET
+                        </div>
+                        <div class="ui label">
+                            C
+                        </div>
+                        <div class="ui label">
+                            Python
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
