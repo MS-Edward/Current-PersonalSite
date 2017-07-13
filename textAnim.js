@@ -1,15 +1,15 @@
 ﻿$(function () { 
-    $('#fadeName').hide().fadeIn(2100);
+    $('#fadeName').hide().fadeIn(1500);
 });
 $(function () {
-    $('#fadeTitle').hide().fadeIn(4000);
+    $('#fadeTitle').hide().fadeIn(2000);
 });
 
 $(function () {
-    $('#navBar').hide().fadeIn(4000);
+    $('#navBar').hide().fadeIn(2000);
 });
 $(function () {
-    $('#chevronContainer').hide().fadeIn(4000);
+    $('#chevronContainer').hide().fadeIn(2000);
 });
 
 
