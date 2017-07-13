@@ -74,17 +74,17 @@
                     <div class="six wide colum">
                         <div class="ui container">
                             <div class="ui horizontal list">
-                                <div class="item" id ="navItem1">
+                                <div class="item" id="navItem1">
                                     <a href="#myAboutAnchor" rel="" id="aboutAnchor" class="anchorLink">
                                         <span id="aboutButton">About</span>
                                     </a>
                                 </div>
-                                <div class="item" id ="navItem2">
+                                <div class="item" id="navItem2">
                                     <a href="#myPortfolioAnchor" rel="" id="portfolioAnchor" class="anchorLink">
                                         <span id="portfolioButton">Portfolio</span>
                                     </a>
                                 </div>
-                                <div class="item" id ="navItem3">
+                                <div class="item" id="navItem3">
                                     <a href="#myContactAnchor" rel="" id="contactAnchor" class="anchorLink">
                                         <span id="contactButton">Contact</span>
                                     </a>
@@ -153,11 +153,11 @@
                     <div class="four wide column">
                         <h1 id="myContactAnchor">Contact Me</h1>
                         <hr style="border: none; height: 2px; color: lightgray; background: lightgray;" />
-                        <p id="contactRemark">
-                            Have a sweet project in mind or just want to say hi?
+<%--                        <p id="contactRemark">
+ 
                             <br />
-                            Feel free to send me a message!
-                        </p>
+
+                        </p>   --%>                  
                     </div>
                 </div>
             </div>
